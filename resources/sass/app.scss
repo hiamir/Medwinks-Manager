@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+@import "node_modules/bootstrap/scss/bootstrap";
+@import '~bootstrap-icons/font/bootstrap-icons';
+@import 'bootstrap';
+@import 'mazer';
+@import 'profile';
+@import 'custom';
+@import 'error';
+@import 'filepond';
+@import 'spinners';

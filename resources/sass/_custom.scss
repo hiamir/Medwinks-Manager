@@ -1,0 +1,308 @@
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+    font-weight: 700;
+}
+
+h6 {
+    font-weight: 700;
+}
+
+.blue-color {
+    color: #25396f;
+}
+
+.blue-menu-background {
+    background: #435ebe;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.dropdown-divider-light {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #555555;
+}
+
+.nounderline {
+    text-decoration: none !important
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.menu-pointer {
+    cursor: pointer;
+    text-align: left;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-lg {
+    font-size: 1rem !important;
+}
+.text-sm {
+    font-size: 0.875rem !important;
+}
+
+.text-xs {
+    font-size: 0.8rem !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.form-label {
+    margin: 0rem !important;
+}
+
+.inputHighlight {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.input-checkbox {
+    position: relative;
+    min-height: calc(1.5em + 0.75rem + 2px);
+    padding: 1rem 0.75rem;
+    line-height: 1.25;
+    border: 1px solid rgb(220, 231, 241);
+    border-radius: 0.25rem;
+    padding-top: 1.825rem;
+    padding-bottom: 0.625rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    .form-check {
+        padding: 0rem;
+        margin: 0rem;
+
+        .form-check-input {
+            border-width: 2px;
+            padding: 0rem;
+            margin: 0rem;
+        }
+
+        .form-check-label {
+            padding-left: 0.5rem;
+            padding-right: 1rem;
+        }
+    }
+
+}
+
+.input-checkbox > label {
+    display: inline-block;
+    font-weight: 600;
+    color: $gray-500;
+    font-size: 0.85rem;
+    line-height: 0.85rem;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    height: 100%;
+    padding: 1rem 0.75rem;
+    pointer-events: none;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+
+.form-group label {
+    display: block;
+    padding-bottom: 0.2rem;
+}
+
+.form-check {
+    display: inline-block;
+}
+
+.dropdown-menu.show {
+    transform: translate3d(-180px, 70px, 0px) !important;
+    border-radius: 0.5rem;
+    /*background:#435ebe;*/
+    /*color:white;*/
+}
+
+.breadcrumb-item button {
+    text-decoration: none;
+}
+
+.breadcrumb-item button:hover {
+    color: red;
+}
+
+.submit-button-spinner {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.submit-button-spinner .spinner {
+    margin-right: 0.3rem;
+}
+
+.modal-scroll {
+
+    overflow-y: auto !important;
+}
+
+.modal-body {
+    //padding:0rem;
+
+}
+
+.modal-open .modal {
+    padding-right: 0rem !important;
+}
+
+.img-error {
+    display: block;
+    width: 100%;
+}
+
+.floating-label {
+    position: relative;
+
+    .reset-icon {
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+
+        i {
+            color: rgba(0, 0, 0, 0.3);
+        }
+
+        &:hover {
+            i {
+                color: rgba(0, 0, 0, 0.7);
+                cursor: pointer;
+            }
+
+        }
+    }
+}
+
+.form-floating-label{
+    color:$gray-500;
+}
+
+//.modal:nth-of-type(even) {
+//    z-index: 1052 !important;
+//}
+//.modal-backdrop.show:nth-of-type(even) {
+//    z-index: 1051 !important;
+//}
+
+.profile-icon {
+    position: relative;
+    top: -40px;
+}
+
+.profile-icon .dropdown-menu .dropdown-header {
+    font-size: 1rem;
+    color: white;
+    padding: 0.2rem;
+}
+
+.profile-icon .dropdown-menu {
+    padding: 1rem 1.5rem;
+    /*background:#526dd0;*/
+    background: #000000;
+}
+
+.profile-icon .dropdown-menu .dropdown-item {
+    display: flex;
+    flex-flow: row;
+    padding: 0.2rem 0rem;
+    color: #cccccc;
+}
+
+.profile-icon .dropdown-menu .dropdown-item:hover {
+    background: none;
+    color: white;
+}
+
+.profile-icon .dropdown-menu .dropdown-item span {
+
+    font-size: 0.875rem;
+
+}
+
+.profile-icon .dropdown-menu .dropdown-item i {
+    display: flex;
+    font-size: 1rem;
+}
+
+.profile-icon .dropdown-toggle:after {
+    content: none;
+}
+
+.modal .modal-header .close {
+    color: rgb(100, 100, 100);
+}
+
+.modal .modal-header .close i {
+    font-size: 1.0rem;
+}
+
+.modal .modal-header .close:hover {
+    background: none;
+}
+
+.modal .modal-header .close:hover i {
+    color: rgb(0, 0, 0);
+
+}
+
+@media only screen and (max-width: 768px) {
+    .burger {
+        position: relative;
+        z-index: 5;
+        width: 100px;
+    }
+
+    .profile-icon {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .profile-icon .dropdown-menu.show {
+
+        transform: translate3d(-180px, 70px, 0px) !important;
+    }
+
+
+    .page-heading {
+        margin-top: 2rem;
+    }
+
+}
